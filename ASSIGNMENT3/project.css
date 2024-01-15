@@ -1,0 +1,43 @@
+
+#myfriend{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#mydosth{
+    background-color: orange;
+    padding: 2px;
+    color: white;   
+}
+nav{
+background-color: #333;
+padding: 10px;
+}
+a{
+color: #de1010;
+text-decoration: dotted;
+padding: 8px;
+margin: 0 10px;
+}
+a:hover{
+background-color: #555;
+}
+a:visited{
+color: pink;
+}
+a:active{
+background-color: aqua;
+}
+a:focus{
+outline: 2px solid #ffcc00;
+}
+p{
+    color: aqua;
+    background-color: #de1010;
+   border-top-right-radius:10px ;
+   border-color: #ffcc00;
+}

@@ -1,0 +1,49 @@
+main {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+
+#main {
+    text-align: center;
+    background-color: palegreen;
+    margin: 10px 00px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    border: 1px dotted orange;
+    padding: 20px;
+}
+
+#pran1, #pran3 {
+    background-color: rgb(211, 252, 211);
+    padding: 30px 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 70px;
+
+}
+
+#pran2, #pran4 {
+    background-color: rgb(155, 155, 155);
+    padding: 30px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 70px;
+
+}
+
+#pran1:active, #pran2:active, #pran3:active, #pran4:active {
+    background-color: orange;
+}
+
+a:visited {
+    color: pink;
+}

@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    margin: 10px 0px;
+    background-color: yellowgreen;
+}
+
+#scroll {
+    display: inline;
+    position: absolute;
+    top: 130px;
+    padding: 20px;
+    right: 10px;
+    left: 10px;
+}
+
+img {
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#imagee {
+    background-color: aqua;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+#pic {
+    
+    position: relative;
+}
+
+#contant {
+    padding: 20px;
+}
+
+h2 {
+    background-color: darkgray;
+}
+
+#ull {
+    background-color: azure;
+    border: 1px dotted black;
+}

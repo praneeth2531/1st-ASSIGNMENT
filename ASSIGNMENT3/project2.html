@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        a{
+            color: brown;
+            text-decoration: underline;
+        }
+        select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+input[type=submit]{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+tr{
+    background:gray;
+}
+h3{
+    color: red;
+    background-color: yellow;
+    
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <h3>SAMSUNG S23 ULTRA</h3>
+    <img src="samsung.jpg" width="300" height="300" style="vertical-align:middle">
+    <h4>Specification Table </h4>
+    <div>
+    <table border="1">
+        <tr>
+            <th>Model</th>
+            <th>Specification(RAM)</th>
+            <th>Internal(ROM)</th>
+            <th>color</th>
+        </tr>
+        <tr>
+            <td rowspan="2">S23</td>
+            <td rowspan="2">12 GB</td>
+            <td rowspan="2">126 GB</td>
+            <td>pearl white</td>
+       
+        </tr>
+        <tr>
+            <td>fiercy red</td>
+        </tr>
+      
+        <tr>
+            <td rowspan="2">S23 ultra</td>
+            <td>12 GB</td>
+            <td>126GB</td>
+            <td>GREEN</td>
+        </tr>
+        <tr>
+            <td>16 GB</td>
+            <td>256GB</td>
+            <td>Black</td>
+        </tr>
+    </table>
+    </div>
+    <br>
+   <form>
+    <label for="models">MODELS:</label>
+    <select id="models" name="models">
+        <option value="please select your choice" selected>please select your choice</option>
+        <option value="S23">S23</option>
+        <option value="S23 ULTRA">S23 ULTRA</option>
+    </select>
+    <br>
+<br>
+    <label for="RAM">RAM:</label>
+    <select id="RAM" name="mobiles">
+        <option value="please select your choice" selected>please select your choice</option>
+        <option value="12 GB">12 GB</option>
+        <option value="16 GB">16 GB</option>
+    </select>
+    <br>
+    <br>
+    <label for="internal memory">internal memory:</label>
+    <select id="internal memory" name="Memory">
+        <option value="please select your choice" selected>please select your choice</option>
+        <option value="128 GB">12 GB</option>
+        <option value="256 GB">16 GB</option>
+    </select>
+    <br>
+    <br>
+    <label for="color">color:</label>
+    <select id="color" name="color">
+        <option value="please select your choice" selected>please select your choice</option>
+        <option value="pearl white">pearl white</option>
+        <option value="fiercy red">fiercy red</option>
+        <option value="green">green</option>
+        <option value="black">black</option>
+    </select><br>
+    <br>
+    <input type="submit">
+</form>
+<p>Not interested in samsung</p>
+<a href="project1.html">click here</a>
+
+
+</body>
+</html>

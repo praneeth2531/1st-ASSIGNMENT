@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+    color: darkblue;
+    border: 3px double black;
+}
+
+#sub_head{
+    display: inline-block;
+    background-color: aliceblue;
+    margin-left: 20px;
+    width: 120px;
+    padding: 5px;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 10px;
+    color: darkred;
+}
+
+#namee, a {
+    display: inline;
+    margin-left: 20px;
+    text-decoration: none;
+    color: pink;
+}
+
+#content{
+    border: 2px solid mediumseagreen;
+    background-color: bisque;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 5px 15px;
+}
+
+#last {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+label {
+    display: block;
+    color: darkgreen;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    display: block;
+    margin-left: 40px;
+}

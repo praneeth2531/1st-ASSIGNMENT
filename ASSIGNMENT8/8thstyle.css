@@ -1,0 +1,43 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+form {
+  width: 400px;
+  text-align: center;
+  padding: 30px;
+  box-shadow: rgba(72, 72, 73, 0.2) 50px 70px 33px 4px;
+}
+label {
+  font-size: 20px;
+  color: #666;
+  margin: 10px;
+  display: block;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #2c3e50;
+  font-size: 14px;
+}
+
+button {
+  width: 100px;
+  background: #ee0979;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 25px;
+  padding: 10px 5px;
+  margin: 10px 5px;
+}
